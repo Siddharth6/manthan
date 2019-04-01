@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url('../img/image1.jpg');
+    
+    
+    
+}
+.table1{
+    margin-top: 70px;
+}
+.navbar {
+    background-color: transparent;
+}
+.blink{
+    animation:blinkingText 0.8s infinite;
+    font-weight: 10px;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(219, 36, 36);    }
+    49%{    color: rgb(94, 228, 32); }
+    50%{    color:  rgb(100, 79, 224); }
+    99%{    color: rgb(214, 24, 129);  }
+    100%{   color:  rgb(89, 250, 210);}
+}
+.text{
+    margin-top:20px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img1{
+    margin-top: 90px;
+    width: 200px;
+    background-color: transparent;
+}
